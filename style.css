@@ -6,3 +6,58 @@ body {
 #header {
     color:yellow;
 }
+
+#genFact{
+
+       
+    border: 3px solid;
+    border-color: rgb(255,0,126);
+    border-radius: 10px;
+    background-color:#290725;
+     height: 50px;
+     width: 100px;
+     color: white;
+     font-weight: bold;
+     font-size: medium;
+     cursor: pointer;
+
+
+ }
+ #card{
+
+   
+    border: 10px solid;
+    border-color: rgb(255,0,126);
+    border-radius: 10px;
+
+ }
+ #lotGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+ }
+ #factHolder{
+    background-color: #b30060;
+    height: 200px;
+     width: 400px;
+     margin-top: 26px;
+     border-radius: 10px;
+     border: 10px solid;
+     border-color: #b30060;
+     justify-content: center;
+     text-align: center;
+     font-size: large;
+     font-weight: bold;
+ }
+ #notDisplayed{
+    height: 300px;
+    width: 300px;
+    display:none;
+    background-color: rgb(255,0,126);
+    border-radius: 10px;
+     border: 10px solid;
+     border-color: #059231;
+     justify-content: center;
+     cursor: pointer;
+     margin-left: 50px;
+     margin-top: 50px;
+ }
