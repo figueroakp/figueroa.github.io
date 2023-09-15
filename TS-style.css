@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(206, 213, 245);
+    margin: auto;
+    width: 600px;
+    height: 750px;
+}
+h1 {
+    font-size: 400%;
+    text-align: center;
+    padding:10px;
+      background: linear-gradient(to right,#ED2CFA, rgb(94, 198, 94), #2a44cd, #C47AD0, orange);
+      -webkit-background-clip: text;
+      color: transparent;
+      animation: rainbow_animation 10s ease-in-out infinite;
+      background-size: 400% 100%;
+      }
+      
+      @keyframes rainbow_animation {
+      0%,100% {
+      background-position: 0 0;
+}
+      }
+#randomSong{
+    background-color: rgba(250, 207, 215, 0.65);
+    font-size: 300%;
+}
+.div1 {
+    height: 150px;
+    width: 600px;
+    display: relative;
+    align-items: center;
+
+}
+button{
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    transition-duration: 0.5s;
+    width: 125px;
+    height: 50px;
+  }
+  
+button:hover {
+    background-color: white; 
+    color: black;
+    box-shadow: 2px 4px grey;
+
+  }

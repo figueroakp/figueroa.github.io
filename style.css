@@ -2,10 +2,33 @@ body {
     background-color: #291725;
     color: white;
     justify-content: center;
+    border: groove 5px;
+    border-color:darkorchid;
+    
+    
+}
+.front{
+    text-align: center;
+    justify-content: center;
 }
 #header {
-    color:yellow;
-}
+    h1 {
+        font-size: 400%;
+        text-align: center;
+        padding:10px;
+          background: linear-gradient(to right,#ED2CFA, rgb(94, 198, 94), #2a44cd, #C47AD0, orange);
+          -webkit-background-clip: text;
+          color: transparent;
+          animation: rainbow_animation 10s ease-in-out infinite;
+          background-size: 400% 100%;
+          }
+          
+          @keyframes rainbow_animation {
+          0%,100% {
+          background-position: 0 0;
+    }
+          }
+        }
 
 #genFact{
 
@@ -69,4 +92,5 @@ body {
     border: 3px;
     border-color: white;
     border-radius: 10px;
+    margin-left: 25px;
  }
