@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8" />
+   <title>Write a Pioneer a Letter</title>
+   <link rel="stylesheet" type="text/css" media="screen" href= "style.css"  />
+</head>
+<body>
+<div id = "header">
+<h1>Computer Science Pioneers</h1>
+</div>
+<header>
+    <div id="nav">
+      <a href="CSPio.html" class = "tab1">__Home__</a>
+      <a href="letter.html" class = "tab1"> __Explore Pioneers__</a>
+      <a href ="house.html" class = "tab1"> __House Simulation__</a>
+      <a href ="flashcards.html" class = "tab1">__Flashcards__ </a>
+      <a href ="Game.html" class = "tab1">  __Guessing Game__  </a>
+        </div>
+    <p id ="searchInstructions">Search Pioneers by Name, Tag, Country of Birth, or Centuries Lived. Select "Reset" to explore all Pioneers -->
+      <button id = "reset" > Reset </button>
+    </p>
+    
+    <div id = "letterNav">
+        <select name="selectPio" id ="selectPioDropDown">
+          <option value="">--Select Pioneer--</option>
+        
+         
+        </select>
+        <button id ="searchPio" onclick="filtersName()">Search</button>
+
+        <select name="searchTag" id ="selectTagDropDown">
+            <option value="">--Search By Tag--</option>
+          
+           
+          </select>
+          <button id ="searchTag" onclick="filtersTags()">Search by Tag</button>
+
+          <select name="searchCountry" id ="selectCountryDropDown">
+            <option value="">--Search By Country--</option>
+          
+           
+          </select>
+          <button id ="searchCountry" onclick="filtersCountry()">Search by Country</button>
+          
+          <select name="searchCentury" id ="selectCenturyDropDown">
+            <option value="">--Search By Century--</option>
+          
+           
+          </select>
+          <button id ="searchCentury" onclick="filtersCenturies()">Search by Century</button>
+          
+
+    
+    </div>
+    <p id = "showPio"></p>
+    <div id = "allPioneers" class = "allPioneers">
+        
+    </div>
+    <div id = "footer">
+      &copy;2023 Karla P Figueroa 220003751
+  </div>
+
+    <script src="letter.js"></script>
+</body>
