@@ -206,7 +206,7 @@ function remove(array, val) {
 function winner(div) {
     console.log("winner");
     winmessage.textContent="WINNER!"
-    window.aler("You Won!");
+    window.alert("You Won!");
     newG(div)
 }
 
